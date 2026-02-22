@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ProjectDMN</string>
+    <string name="navigation_drawer_open">Ouvrir le menu</string>
+    <string name="navigation_drawer_close">Fermer le menu</string>
+    <string name="search_hint">Rechercher une tâche...</string>
+    <string name="filter_priority">Priorité</string>
+    <string name="filter_status">Statut</string>
+    <string name="clear_filters">×</string>
+
+    <!-- Arrays -->
+    <string-array name="priority_array">
+        <item>Haute</item>
+        <item>Moyenne</item>
+        <item>Basse</item>
+    </string-array>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Thème de base -->
+    <style name="Base.Theme.ProjectDMN" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Personnalisation de base -->
+    </style>
+
+    <!-- Thème principal de l'application -->
+    <style name="Theme.ProjectDMN" parent="Base.Theme.ProjectDMN" />
+
+    <!-- Thème SmartTaskManager (clair) -->
+    <style name="Theme.SmartTaskManager" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorOnSecondary">@android:color/black</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:navigationBarColor">?attr/colorPrimary</item>
+    </style>
+
+    <!-- ThemeOverlay (doit être DANS resources mais PAS dans un style) -->
+    <style name="ThemeOverlay.AppCompat.Dark" parent="ThemeOverlay.MaterialComponents.Dark" />
+</resources>
